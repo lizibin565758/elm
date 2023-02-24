@@ -22,6 +22,10 @@ pnpm run lint
 json-server: https://github.com/typicode/json-server
 
 ```sh
+cd elm_app-h5-server
+```
+
+```sh
 npm install json-server --save-dev
 ```
 
