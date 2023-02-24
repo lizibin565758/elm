@@ -2,9 +2,7 @@
 
 ### 技术栈
 ```
-Vue3.x
-Vite
-TS
+Vue3.x, Vite, TS, Vant4
 ```
 
 ```sh
