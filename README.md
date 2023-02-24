@@ -1,28 +1,30 @@
-# elm_app
-
-### 技术栈
-```
-Vue3.x, Vite, TS, Vant4
-```
+# 前端项目: elm_app
+## 本项目我自用 pnpm   I used pnpm for this project
 
 ```sh
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
 pnpm run dev
 ```
-
-### Type-Check, Compile and Minify for Production
 
 ```sh
 pnpm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
 ```sh
 pnpm run lint
+```
+
+# 模拟后端项目: elm_app-h5-server
+### 模拟后端请求  Simulate back-end requests
+json-server: https://github.com/typicode/json-server
+
+```sh
+npm install json-server --save-dev
+```
+
+```sh
+pnpm run serve
 ```
