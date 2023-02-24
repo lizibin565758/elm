@@ -1,4 +1,11 @@
-# elm-h5
+# elm_app
+
+### 技术栈
+```
+Vue3.x
+Vite
+TS
+```
 
 ```sh
 pnpm install
