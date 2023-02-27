@@ -1,3 +1,9 @@
+/**
+ * @FileDescription: 路由
+ *
+ * @Author: Lizb
+ * @Date: 2023-02-27 14:24:30
+ */
 import { createRouter, createWebHistory } from 'vue-router'
 // 引入tabs组件
 import TabsView from '../views/tabs/TabsView.vue'

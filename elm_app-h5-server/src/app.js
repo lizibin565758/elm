@@ -16,14 +16,14 @@ server.use(jsonServer.bodyParser)
 
 server.use((req, res, next) => {
     const json = res.json.bind(res)
-    res.success = ((data) => {
+    // json成功的业务状态码
+    res.success = (data) => {
         return json({
             code: 0,
             msg: '请求成功',
             data
         })
-    })
-
+    }
     res.fail = (msg, code = -1, data) => {
         return json({
             code,
@@ -31,7 +31,7 @@ server.use((req, res, next) => {
             data
         })
     }
-
+    // 调后续中间件
     next()
 })
 
